@@ -428,6 +428,74 @@ body {
   word-break: break-all;
 }
 
+/* Estilos para la sección de certificados */
+.certificate-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-icon {
+  color: #4e54c8;
+  text-align: center;
+}
+
+.certificate-title {
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.certificate-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.certificate-link {
+  color: #4e54c8;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.certificate-card:hover .certificate-link {
+  color: #6a6fc9;
+}
+
+.certificate-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Colores específicos para cada icono */
+.certificate-card:nth-child(1) .certificate-icon i {
+  color: #ff6347; /* Diseño Web */
+}
+
+.certificate-card:nth-child(2) .certificate-icon i {
+  color: #3776ab; /* Python */
+}
+
+.certificate-card:nth-child(3) .certificate-icon i {
+  color: #61dafb; /* React */
+}
+
+.certificate-card:nth-child(4) .certificate-icon i {
+  color: #f7df1e; /* JavaScript */
+}
+
+
 /* Para pantallas pequeñas */
 @media (max-width: 768px) {
   .contact-item {
